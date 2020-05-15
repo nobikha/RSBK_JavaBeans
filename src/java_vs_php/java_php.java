@@ -149,8 +149,9 @@ private int skorjava = 0;
             skorphp = ++skorphp;
         }
         labelsukaphp.setText(String.valueOf(skorphp));
-        persenjavaphp.setValue(skorjava);
         persenjavaphp.setMaximum(skorjava+skorphp);
+        persenjavaphp.setValue(skorjava);
+        
         labelpersenjava.setText(String.format("%.1f",persenjavaphp.getPercentComplete()*100)+"%");
         labelpersenphp.setText(String.format("%.1f",(1-persenjavaphp.getPercentComplete())*100)+"%");
 
@@ -172,8 +173,9 @@ private int skorjava = 0;
             skorjava = ++skorjava;
         }
         labelsukajava.setText(String.valueOf(skorjava));
-        persenjavaphp.setValue(skorjava);
         persenjavaphp.setMaximum(skorjava+skorphp);
+        persenjavaphp.setValue(skorjava);
+        
         labelpersenjava.setText(String.format("%.1f",persenjavaphp.getPercentComplete()*100)+"%");
         labelpersenphp.setText(String.format("%.1f",(1-persenjavaphp.getPercentComplete())*100)+"%");
     }//GEN-LAST:event_btnjavaActionPerformed
