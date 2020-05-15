@@ -2,7 +2,7 @@ Tugas RSBK - JavaBeans progressbar <br>
 =========================================<br>
 Nobi Kharisma <br>
 21120117130048 <br>
-Kelas B
+Kelas B<br>
 =========================================<br>
 Cara install project <br>
 1. Open project menggunakan Netbeans<br>
