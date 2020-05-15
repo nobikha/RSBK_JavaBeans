@@ -1,4 +1,4 @@
-Tugas RSBK - JavaBeans progressbar <br>
+Tugas RSBK - JavaBeans Counter & ProgressBar <br>
 =========================================<br>
 Nobi Kharisma <br>
 21120117130048 <br>
